@@ -1,12 +1,14 @@
-/*  your css code here. If applicable */
 nav {
-  background-color: #D3D3D3;
-	padding: 10px;
-	display:inline;
-	margin-right:1rem;
-	
+    background-color: #D3D3D3;
+    padding: 10px;
 }
 
 ul {
-  list-style-type: none;
+    list-style: none; /* Removes bullet points */
+    padding: 0; /* Removes default padding */
+}
+
+li {
+    display: inline; /* Displays list items horizontally */
+    margin-right: 1rem; /* Adds space between items */
 }
