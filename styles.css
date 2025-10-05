@@ -4,6 +4,9 @@ nav {
 	padding: 10px;
 	display:inline;
 	margin-right:1rem;
-	list-style:
 	
+}
+
+ul {
+  list-style-type: none;
 }
